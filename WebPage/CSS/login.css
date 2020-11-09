@@ -1,0 +1,69 @@
+body{
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#red{
+  background-color: red;
+  width: 500px;
+}
+#black{
+  background-color: black;
+  width: 50%;
+  margin-left: 44px;
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: 180px;
+  margin-top: 60px;
+  height: 500px;
+}
+#icon{
+  margin-left:125px;
+  margin-top: 1px;
+  margin-bottom: 150px;
+}
+#text{
+  margin-left: 125px;
+  margin-bottom: 150px;
+  color: white;
+}
+#txt1{
+  margin-left: 15px;
+  background:none;
+  border: none;
+  outline: none;
+  color:white;
+}
+#txt2{ 
+  margin-left: 15px;
+  background:none;
+  border: none;
+  outline: none;
+  color:white;
+}
+#btn{
+  color:red;
+  border-color: red;
+  background-color: black;
+  font-weight: bolder;
+  margin-left: 2px;
+  width:40%;
+  height:35px;
+  margin-top:50px;
+}
+#fgt{
+  margin-left:50px;
+  text-decoration: none;
+  color:gray;
+}
+.details{
+  padding-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color:gray;
+}
+#login{
+  padding-left: 100px;
+}
