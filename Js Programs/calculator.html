@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <script type="text/javascript">
+      function validate(){
+        var a=document.getElementById("input1").value;
+        var b=document.getElementById("input2").value;
+       var operator=document.getElementById("op").value;
+       var result=0;
+       var operand1=parseInt(a),operand2=parseInt(b);
+       if(operator=='+'){
+         result=operand1+operand2;
+       }
+       else if(operator=='-'){
+         result=operand1-operand2;
+       }
+       else if(operator=='*'){
+         result=operand1*operand2;
+       }
+       else if(operator=='/'){
+         if(operand2==0){
+           alert("value cannot be divided by 0");
+         }
+         result=operand1/operand2;
+       }
+       else if(operator=='%'){
+         result=operand1%operand2;
+       }
+       else{
+         alert("Enter a valid Operator");
+       }
+        window.alert(result);
+      }
+        </script>
+  </head>
+  <body>
+    Enter a num1: <input type="text" id="input1" name="" value="">
+    <br>
+    Enter a num2:<input type="text" id="input2" name="" value="">
+    <br>
+    Enter the operator:<input type="text" id="op" name="" value="">
+    <br>
+    <button type="button" onclick="validate()" name="button">Get</button>
+  </body>
+</html>

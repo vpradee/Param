@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Program-1</title>
+    <script type="text/javascript">
+      function myFunction(){
+      var res=(document.getElementById("text").innerHTML);
+      var str=res.split(" ");
+      var count=0;
+      for(var index=0;index<str.length;index++){
+        var word=(str[index].toLowerCase());
+        if(word==="param"){
+          count++;
+        }
+      }
+      return count;
+    }
+    </script>
+  </head>
+  <body>
+    <p id="text">I am working at Param Param is a blockchain based company</p>
+    <script type="text/javascript">
+      document.write("The count of word Param is "+myFunction());
+    </script>
+  </body>
+</html>
